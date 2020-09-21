@@ -1,0 +1,22 @@
+.container_cards{
+    @include containerCards;
+}
+.card{
+    @include Cards;
+    img{
+        @include immagini;
+    }
+    h3{
+        font-size: 22px;
+        color: white;
+    }
+    small{
+        padding: 7px 0px;
+        color: grey;
+        font-size: 20px;
+    }
+    strong{
+        color: grey;
+        font-size: 21px;
+    }
+}

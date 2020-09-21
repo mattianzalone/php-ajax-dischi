@@ -1,0 +1,12 @@
+header{
+    height: 90px;
+    width: 100vw;
+    background-color: $colorHeader;
+}
+
+.container_header{
+    @include containerHeader;
+    img{
+        width: 60px;
+    }
+}
