@@ -93,7 +93,34 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\mamp_public\\php-ajax-dischi\\src\\app.js: Unexpected token, expected \",\" (7:20)\n\n\u001b[0m \u001b[90m  5 | \u001b[39m        {\u001b[0m\n\u001b[0m \u001b[90m  6 | \u001b[39m            \u001b[32m'url'\u001b[39m\u001b[33m:\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 | \u001b[39m            \u001b[32m'method'\u001b[39m\u001b[33m:\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 | \u001b[39m            \u001b[32m'success'\u001b[39m\u001b[33m:\u001b[39m \u001b[36mfunction\u001b[39m(risposta){\u001b[0m\n\u001b[0m \u001b[90m  9 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 | \u001b[39m            }\u001b[33m,\u001b[39m\u001b[0m\n    at Parser._raise (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:766:17)\n    at Parser.raiseWithData (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:759:17)\n    at Parser.raise (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:753:17)\n    at Parser.unexpected (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:8966:16)\n    at Parser.expect (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:8952:28)\n    at Parser.parseObjectLike (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:10655:14)\n    at Parser.parseExprAtom (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:10198:23)\n    at Parser.parseExprSubscripts (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9844:23)\n    at Parser.parseUpdate (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9824:21)\n    at Parser.parseMaybeUnary (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9813:17)\n    at Parser.parseExprOps (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9683:23)\n    at Parser.parseMaybeConditional (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9657:23)\n    at Parser.parseMaybeAssign (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9620:21)\n    at C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9586:39\n    at Parser.allowInAnd (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:11303:12)\n    at Parser.parseMaybeAssignAllowIn (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9586:17)\n    at Parser.parseExprListItem (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:11051:18)\n    at Parser.parseCallExpressionArguments (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:10053:22)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9960:29)\n    at Parser.parseSubscript (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9896:19)\n    at Parser.parseSubscripts (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9867:19)\n    at Parser.parseExprSubscripts (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9850:17)\n    at Parser.parseUpdate (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9824:21)\n    at Parser.parseMaybeUnary (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9813:17)\n    at Parser.parseExprOps (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9683:23)\n    at Parser.parseMaybeConditional (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9657:23)\n    at Parser.parseMaybeAssign (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9620:21)\n    at Parser.parseExpressionBase (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9564:23)\n    at C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9558:39\n    at Parser.allowInAnd (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:11297:16)\n    at Parser.parseExpression (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:9558:17)\n    at Parser.parseStatementContent (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:11562:23)\n    at Parser.parseStatement (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:11431:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:12013:25)\n    at Parser.parseBlockBody (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:11999:10)\n    at Parser.parseBlock (C:\\mamp_public\\php-ajax-dischi\\node_modules\\@babel\\parser\\lib\\index.js:11983:10)");
+$(document).ready(function () {
+  $.ajax({
+    'url': 'http://localhost:8888/php-ajax-dischi/server.php',
+    'method': 'GET',
+    'success': function success(risposta) {
+      printData(risposta);
+    },
+    'error': function error() {
+      alert('Errore');
+    }
+  });
+});
+
+function printData(data) {
+  var source = $("#entry-template").html();
+  var template = Handlebars.compile(source);
+
+  for (var i = 0; i < data.length; i++) {
+    var context = {
+      'poster': data[i].poster,
+      'title': data[i].title,
+      'author': data[i].author,
+      'year': data[i].year
+    };
+    var html = template(context);
+    $('.container_cards').append(html);
+  }
+}
 
 /***/ }),
 
